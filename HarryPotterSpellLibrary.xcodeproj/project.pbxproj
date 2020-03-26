@@ -14,6 +14,7 @@
 		ACF6EE7E242D520C00C2A3D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF6EE7C242D520C00C2A3D5 /* LaunchScreen.storyboard */; };
 		ACF6EE81242D520C00C2A3D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF6EE80242D520C00C2A3D5 /* main.m */; };
 		ACF6EE8B242D56D200C2A3D5 /* TTVSpell.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF6EE8A242D56D200C2A3D5 /* TTVSpell.m */; };
+		ACF6EE90242D5D5500C2A3D5 /* TTVSpellController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF6EE8F242D5D5500C2A3D5 /* TTVSpellController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		ACF6EE80242D520C00C2A3D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ACF6EE89242D56D200C2A3D5 /* TTVSpell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTVSpell.h; sourceTree = "<group>"; };
 		ACF6EE8A242D56D200C2A3D5 /* TTVSpell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTVSpell.m; sourceTree = "<group>"; };
+		ACF6EE8E242D5D5500C2A3D5 /* TTVSpellController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTVSpellController.h; sourceTree = "<group>"; };
+		ACF6EE8F242D5D5500C2A3D5 /* TTVSpellController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTVSpellController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		ACF6EE6D242D520900C2A3D5 /* HarryPotterSpellLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				ACF6EE8C242D5D1E00C2A3D5 /* Controllers */,
 				ACF6EE88242D567700C2A3D5 /* Models */,
 				ACF6EE77242D520900C2A3D5 /* Main.storyboard */,
 				ACF6EE87242D522900C2A3D5 /* Resources */,
@@ -90,6 +94,23 @@
 				ACF6EE8A242D56D200C2A3D5 /* TTVSpell.m */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		ACF6EE8C242D5D1E00C2A3D5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ACF6EE8D242D5D2A00C2A3D5 /* Model Controllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ACF6EE8D242D5D2A00C2A3D5 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ACF6EE8E242D5D5500C2A3D5 /* TTVSpellController.h */,
+				ACF6EE8F242D5D5500C2A3D5 /* TTVSpellController.m */,
+			);
+			path = "Model Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +187,7 @@
 				ACF6EE70242D520900C2A3D5 /* AppDelegate.m in Sources */,
 				ACF6EE81242D520C00C2A3D5 /* main.m in Sources */,
 				ACF6EE73242D520900C2A3D5 /* SceneDelegate.m in Sources */,
+				ACF6EE90242D5D5500C2A3D5 /* TTVSpellController.m in Sources */,
 				ACF6EE8B242D56D200C2A3D5 /* TTVSpell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
