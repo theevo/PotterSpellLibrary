@@ -17,8 +17,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy, readonly, nullable) NSString * effect;
 
 -(instancetype)initWithSpell:(NSString *)spell
-                       state:(NSString *)type
-                     country:(NSString *)effect;
+                        type:(NSString *)type
+                      effect:(NSString *)effect;
 
 @end
 
